@@ -14,8 +14,13 @@
  *= require_self
  */
 
+// Importing bootstrap for better styling
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+// Importing Font Awesome for logos
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 // Typography styles
 h1, h2, h3 {
