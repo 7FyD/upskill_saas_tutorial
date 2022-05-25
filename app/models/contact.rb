@@ -3,6 +3,8 @@ class Contact < ActiveRecord::Base
   validates :name, presence: true
   validates :email, presence:  true
   validates :email, inclusion: { in: %w(@ .),
-  message: "%{value} isn't a valid email adress" }
+  message: "%{value} isn't valid" }
   validates :message, presence: true
 end
+
+  
