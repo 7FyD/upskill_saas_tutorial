@@ -1,0 +1,4 @@
+Memberships:
+   - user should see option for basic/pro plan on HOME page
+   - basic plan link should point to regular devise sign up form
+   - pro plan link should point to a custom sign up form // i don't approve of this
